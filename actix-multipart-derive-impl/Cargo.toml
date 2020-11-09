@@ -1,0 +1,21 @@
+[package]
+name = "actix-multipart-derive-impl"
+version = "0.1.0"
+authors = ["Rob Ede <robjtede@icloud.com>"]
+description = "Procedural derive macro implementation for actix-multipart-derive."
+readme = "../README.md"
+keywords = ["actix", "multipart", "form", "derive", "macro"]
+repository = "https://github.com/robjtede/actix-multipart-derive.git"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+syn = { version = "1", features = ["extra-traits"] }
+proc-macro2 = "1"
+
+[dev-dependencies]
+trybuild = "1"

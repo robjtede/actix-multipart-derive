@@ -1,0 +1,20 @@
+[package]
+name = "actix-multipart-derive"
+version = "0.1.0"
+authors = ["Rob Ede <robjtede@icloud.com>"]
+description = "Derive macro convenience for multipart forms in Actix Web."
+readme = "../README.md"
+keywords = ["actix", "multipart", "form", "derive", "macro"]
+repository = "https://github.com/robjtede/actix-multipart-derive.git"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+actix-web = "3"
+actix-multipart-derive-impl = "0.1"
+
+[dev-dependencies]
+actix-multipart = "0.3"
+futures-util = "0.3"
+serde = { version = "1", features = ["derive"] }
+trybuild = "1"

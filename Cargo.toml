@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "actix-multipart-derive",
+    "actix-multipart-derive-impl",
+]
+
+[patch.crates-io]
+actix-multipart-derive-impl = { path = "actix-multipart-derive-impl" }
