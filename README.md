@@ -2,6 +2,11 @@
 
 > WIP derive macro wrapping `actix-multipart` to make multipart forms easier to consume.
 
+[![crates.io](https://img.shields.io/crates/v/actix-multipart-derive?label=latest)](https://crates.io/crates/actix-multipart-derive)
+[![Documentation](https://docs.rs/actix-multipart-derive/badge.svg?version=0.1.0)](https://docs.rs/actix-multipart-derive/0.1.0)
+![Apache 2.0 or MIT licensed](https://img.shields.io/crates/l/actix-multipart-derive)
+[![Dependency Status](https://deps.rs/crate/actix-multipart-derive/0.1.0/status.svg)](https://deps.rs/crate/actix-multipart-derive/0.1.0)
+
 ## Goal
 
 Consuming multipart forms should be expressive while maintaining it's stream-oriented
