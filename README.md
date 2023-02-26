@@ -1,3 +1,7 @@
+## This repo has been superseded; multipart form derive support is now included in the official actix/actix-web repo!
+
+---
+
 # actix-multipart-derive
 
 > WIP derive macro wrapping `actix-multipart` to make multipart forms easier to consume.
